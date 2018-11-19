@@ -1,0 +1,48 @@
+.globlal{
+    width: 100%;
+    height: 100%;
+}
+.mainContent{
+    width: 100%;
+    height: 720px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.dashboard{
+    width: 93%;
+    height: 100%;
+}
+.containerTags{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.tag{
+    width: auto;
+    padding: 0px 10px;
+    height: 95%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 2px solid rgb(228, 228, 228);
+}
+.closeTag{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.closeTag:hover{
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+}
